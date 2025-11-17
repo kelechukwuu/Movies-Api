@@ -37,7 +37,7 @@ const MovieList = ({ genreId, index_ ,openModal}) => {
         onClick={() => sliderLeft(elementRef.current)}
       />
       <div
-        className=" flex overflow-x-auto scrollbar-none pt-2 px-3 mb:pb-2 "
+        className=" flex overflow-x-auto scrollbar-none pt-2 px-3 mb:pb-2 gap-5"
         ref={elementRef}
       >
         {movieList.map((i, index) => (
